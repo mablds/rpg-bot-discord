@@ -10,6 +10,20 @@ module.exports = (msg, sentUser) => {
         /getPlayer                  Ex: **/getPlayer mablds**
         /increaseHealth          Ex: **/increaseHealth mablds 15**
         /decreaseHealth          Ex: **/decreaseHealth mablds 15**
+
+        --------
+        
+        Pull requests são bem vindos:
+        
+        GitHub: https://github.com/mablds/rpg-bot-discord
+
+        --------
+        Contato:
+
+        LinkedIn: https://www.linkedin.com/in/marcelo-arthur-701929175/
+        Telegram: @mablds
+        Twitter: https://twitter.com/meuconsagrado
+
         `
     )
 }
