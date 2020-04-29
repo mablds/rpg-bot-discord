@@ -1,0 +1,32 @@
+{
+  "name": "rpg-bot-discord",
+  "version": "1.0.0",
+  "description": "bot to manage the player's health",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mablds/rpg-bot-discord.git"
+  },
+  "keywords": [
+    "bot",
+    "rpg",
+    "discord",
+    "rpg-bot"
+  ],
+  "author": "mablds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mablds/rpg-bot-discord/issues"
+  },
+  "homepage": "https://github.com/mablds/rpg-bot-discord#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.3"
+  }
+}
