@@ -31,7 +31,7 @@ module.exports.getOne = async (msg, msgSent) => {
 
 const emojiQuantity = (playerHealth) => {
     let response = "";
-    for(let emojiQtd = 0; emojiQtd <= playerHealth; emojiQtd++){
+    for(let emojiQtd = 0; emojiQtd < playerHealth; emojiQtd++){
         response += ":heart: "
     }
     return response;
