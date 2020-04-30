@@ -26,16 +26,16 @@ bot.on("message", msg => {
     let msgSent = msg.content.split(" "); //set username and msgSent words array
     //bot command functions
     if(msgSent.length === 3) {
-        if(msgSent[0] === "/createPlayer") createPlayer(msg, msgSent)
-        if(msgSent[0] === "/increaseHealth") increaseHealth(msg, msgSent)
-        if(msgSent[0] === "/decreaseHealth") decreaseHealth(msg, msgSent)
+        if(msgSent[0] === "/add") createPlayer(msg, msgSent)
+        if(msgSent[0] === "/+h") increaseHealth(msg, msgSent)
+        if(msgSent[0] === "/-h") decreaseHealth(msg, msgSent)
     }
     if(msgSent.length === 2) {
-        if(msgSent[0] === "/getPlayer") getPlayer.getOne(msg, msgSent);
-        if(msgSent[0] === "/deletePlayer") deletePlayer(msg, msgSent);
+        if(msgSent[0] === "/show") getPlayer.getOne(msg, msgSent);
+        if(msgSent[0] === "/del") deletePlayer(msg, msgSent);
     } else {
         if(msg.content === "/help") helpFunction(msg, sentUser);
-        if(msg.content === "/getPlayers") getPlayer.getAll(msg, msgSent);
+        if(msg.content === "/showAll") getPlayer.getAll(msg, msgSent);
     }
 
 })
