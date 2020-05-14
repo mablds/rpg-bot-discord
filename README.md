@@ -13,24 +13,25 @@ After this, you only need to follow the steps. (You will need to be logged on yo
 
 ## Functionalities
 The commands was being structured using the "/" on the beggining. There only a few ones:
-- /add <character-name> <base-health>
+- /add {character-name} {base-health}
   
   ```/add Pirate 15```
-- /del <character-name>
+- /del {character-name}
   
   ```/del Pirate```
 - /showAll
 
   ```/showAll```
-- /show <character-name>
+- /show {character-name}
   
   ```/show Pirate```
-- /+h <character-name> <health-to-increase>
+- /+h {character-name} {health-to-increase}
   
   ```/+h Pirate 10```
-- /-h <character-name> <health-to-decrease>
+- /-h {character-name} {health-to-decrease}
   
   ```/-h Pirate 15```
+- /help
     
 ## Resources
 * [Express](https://expressjs.com/pt-br/api.html)
