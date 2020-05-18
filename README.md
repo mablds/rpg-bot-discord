@@ -3,7 +3,7 @@
 Discord bot created to manage RPG's character while play in discord servers.
 
 ## Wanna use this code as an example?
-That's ok. This is not the best code evermade, but can give a pretty ideia about how this libs works. To install it and run in your machine, you'll need these things:
+That's ok. Contribute with this project too, give stars, send PRs, etc. This is not the best code i ever made, but can give a pretty ideia about how this libs works. To install it and run in your machine, you'll need these things:
 
  - Node.js installed (with npm or yarn)
  - install dependencies (commando: yarn or npm install)
