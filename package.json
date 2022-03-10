@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/mablds/rpg-bot-discord#readme",
   "dependencies": {
-    "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0",
-    "mongoose": "^5.9.10",
-    "nodemon": "^2.0.3"
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.6.0",
+    "mongoose": "^5.13.14",
+    "nodemon": "^2.0.15"
   }
 }
